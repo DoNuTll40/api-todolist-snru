@@ -135,6 +135,8 @@ git push -u origin main
 
 ![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSctnoZqsUrTbe2ho5t6vtE9FDV9vAzxofWqR7n6MXNFGUVjW8SNJEo8A10Kj3rTixmgHNarndrNA2aNLaajvWW4aBf=w1177-h970)
 
+- ตรง **Build Command** ไม่ต้องแก้อะไร ``` yarn ```
+
 - ตรง **Start Command** ให้เราพิมพ์ ``` node index.js  ```
 
 ![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYS9e4CPCeMY07T-Usb8MOKl6gtvq_mPvMAg1c9Xo6gL2gAg0iD0GlGg7QFUik39NcgSwpxSo9WOrF0Sh-erTD0JKymaKQ=w1177-h970)
