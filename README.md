@@ -83,6 +83,26 @@
   npm run start
   ```
 
+## ถ้า Error : Module JSON-SERVER
+- ลองตรวจสอบที่ไฟล์ ```package.json``` ว่าข้างในเป็นแบบนี้มัย
+  ```json
+      "json-server": "^1.0.0-alpha.11"
+  ```
+- ถ้าใช่ ให้เปลี่ยนเป็น
+  ```json
+      "json-server": "^0.17.4"
+  ```
+- แล้วสั่ง
+  ``` bash
+  npm install json-server
+  ```
+- แล้วลอง
+  ``` bash
+  npm run start
+  ```
+
+  หวังว่าจะไม่เจอ Error อะไร สาธุ...!
+
 ## Upload to Github
 
 ### ในการอัพ **git** มันมีหลายวิธีแต่ ณ จุดนี้ขอยกตัวอย่างเป็นผ่าน **terminal**
