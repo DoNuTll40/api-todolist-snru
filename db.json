@@ -8,7 +8,7 @@
       },
       {
         "todo": "Memorize the fifty states and their capitals",
-        "completed": false,
+        "completed": true,
         "userId": 1,
         "id": 2
       },
@@ -20,7 +20,7 @@
       },
       {
         "todo": "Contribute code or a monetary donation to an open-source software project",
-        "completed": false,
+        "completed": true,
         "userId": 1,
         "id": 4
       },
@@ -29,12 +29,6 @@
         "completed": false,
         "userId": 1,
         "id": 5
-      },
-      {
-        "todo": "ทดสอบข้อความ02",
-        "completed": true,
-        "userId": 1,
-        "id": 6
       }
     ]
   }
