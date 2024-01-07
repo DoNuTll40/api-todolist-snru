@@ -1,5 +1,5 @@
 # การสร้าง API & Deploy on website [Render.com](https://dashboard.render.com/)
-### สร้างทดสอบบนเครื่อง ก่อนส่งขึ้น github repo
+### สร้างทดสอบบนเครื่อง ก่อนส่งขึ้น github repo [ที่มาของข้อมูล](https://chrisdevcode.hashnode.dev/how-to-create-and-deploy-a-json-server)
 - ขั้นตอนแรกสร้างโฟล์เดอร์เก็บตัว API
 - ทำการ ติดตั้ง NodeJS, Json-Server, Cors and Nodemon
   ``` bash
@@ -74,13 +74,13 @@
 - จากนั้นไปที่ไฟล์ ```package.json``` แล้วไปแก้ไขตรง ```"scripts"```
   ``` json
   "scripts": {
-    "api": "node index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   ```
 - ### วิธีทดสอบ
   ``` bash
-  npm run api
+  npm run start
   ```
 
 ## Upload to Github
